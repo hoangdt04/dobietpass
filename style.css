@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(120deg, #2980b9, #8e44ad);
+    height: 100vh;
+    overflow: hidden;
+    cursor: url(http://www.rw-designer.com/cursor-view/134986.png), auto;
+}
+
+.container{
+    position: absolute;
+    background: white;
+    top: 30%;
+    left: 30%;
+    translate: (-50%, -50%);
+    width: 600px;
+    border-radius: 10px;
+}
+
+h1{
+    text-align: center;
+    padding: 0 0 20px 0 ;
+    border-bottom: 1px solid silver;
+}
+
+form{
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+.pass{
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 20px 0;
+} 
+
+.pass{
+    max-width: 380px;
+    width: 100%;
+    height: 35px;
+    background-color: #f0f0f0;
+    margin: 10px 0;
+    border-radius: 55px;
+    display: grid;
+    grid-template-columns: 95% 45%;
+    padding: 0 0.4rem;
+    margin-left: 80px;
+}
+
+.pass p{
+    margin-top: -16px;
+}
+
+.pass input{
+    background: none;
+    outline: none;
+    border: none;
+    margin-left: 20px;
+    line-height: 1;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.pass label{
+    position: absolute;
+    top: 70%;
+    left: 5px;
+    color: #adadad;
+    transform: translateY(-90%);
+    font-size: 16px;
+    pointer-events: none; 
+
+}
+
+.forget{
+    font-style: italic;
+    color: lightcoral;
+    margin-left: 70px;
+    font-family: pacifico;
+}
+
+.btn{
+    width: 150px;
+    height: 49px;
+    border: none;
+    outline: none;
+    border-radius: 49px;
+    cursor: pointer;
+    background-color: #5995fd;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 10px 180px;
+    transition: .5s;
+}
+
+.btn:hover{
+    background-color: coral;
+    box-shadow: 0 0 10px coral;
+}
+
+.link p{
+    font-size: 16px;
+    text-align: center;
+}  
+
+
+
+
+/* mobie:width < 740px */
+@media only screen and (max-width: 46.1875em){
+    body{
+        padding: 0;
+        margin: 0;
+        background: linear-gradient(120deg, #2980b9, #8e44ad);
+        height: 108vh;
+        /* overflow: none; */
+        background-repeat: no-repeat;
+        
+        
+    }
+    
+    .container{
+        background: white;
+        border-radius: 10px;
+        margin: -32px 0px 0 -106px; 
+        /* padding: 20px; */
+        width: 370px;
+        
+    }
+
+ 
+    
+    .content{
+        font-size: 20px;
+        padding: 0 0 20px 0 ;
+        border-bottom: 1px solid silver;
+        text-align: center;
+    } 
+
+    .pass{
+        max-width: 380px;
+        width: 78%;
+        height: 26px;
+        background-color: #f0f0f0;
+        margin: 10px 0;
+        border-radius: 55px;
+        display: grid;
+        grid-template-columns: 95% 45%;
+        padding: 0 0.4rem;
+        margin-left: 30px;
+    }
+
+    .block{
+        background: none;
+        outline: none;
+        border: none;
+        margin-left: 20px;
+        line-height: 1;
+        font-weight: 600;
+        font-size: 1.1rem;
+        color: #333;
+    }
+
+    .forget{
+        font-style: italic;
+        color: lightcoral;
+        margin-left: 11px;
+        font-family: pacifico;
+        font-size: 11px;
+    }
+    .btn{
+        width: 131px;
+        height: 49px;
+        border: none;
+        outline: none;
+        border-radius: 49px;
+        cursor: pointer;
+        background-color: #5995fd;
+        color: white;
+        text-transform: uppercase;
+        font-weight: 600;
+        margin: 7px 71px;
+        transition: .5s;
+    }
+    
+    .btn:hover{
+        background-color: coral;
+        box-shadow: 0 0 10px coral;
+    }
+    
+    .tag{
+        
+        font-size: 16px;
+        margin-left: 32px;
+        margin-top: 10px;
+    
+    }
+    
+}
+
+
+
+
+
+
+
+
+
